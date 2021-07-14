@@ -457,7 +457,7 @@ footer {
 
 /* for mobile  */
 
-@media only screen and (min-width: 425px) {
+@media only screen and (max-width: 688px) {
   /* Responsive container  */
   .container {
     height: 700px;
