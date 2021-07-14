@@ -457,7 +457,7 @@ footer {
 
 /* for mobile  */
 
-@media screen and (max-width: 688px) {
+@media only screen and (max-width: 688px) {
   /* Responsive container  */
   .container {
     height: 700px;
@@ -531,6 +531,8 @@ footer {
   .players {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
   }
   /* players hover  */
 
