@@ -1,0 +1,149 @@
+/* google fonts  */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* container section  */
+
+.container {
+  width: 100%;
+  height: 677px;
+  background: #2d25a0;
+  margin-bottom: 100px;
+}
+
+/* header section  */
+
+.main {
+  width: 100%;
+  height: 50px;
+  display: flex;
+
+  align-items: center;
+}
+/* navbar */
+
+.navbar {
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+}
+.nav-links ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-links ul li a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 20px;
+}
+
+/* login button  */
+.login {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  background: #e02c6d;
+  width: 123px;
+  height: 44px;
+  justify-content: space-evenly;
+
+  margin-left: 350px;
+}
+
+/* banner  */
+
+.banner-section {
+  display: flex;
+}
+
+/* banner title  */
+
+.banner-title {
+  width: 485px;
+  height: 230px;
+  font-size: 50px;
+  line-height: 86px;
+  color: #fff;
+  margin-left: 60px;
+}
+
+.live-button {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 130px;
+  left: 60px;
+  align-items: center;
+  color: #fff;
+  background: #e02c6d;
+  height: 44px;
+  width: 168px;
+  justify-content: center;
+}
+
+.live-button .fa-arrow-right {
+  padding-left: 10px;
+}
+
+/* banner image  */
+
+.banner-image img {
+  width: 556.01px;
+  height: 438px;
+  position: relative;
+  left: 150px;
+  top: 50px;
+}
+
+.top-players{
+  margin-left: 90px;
+  margin-bottom: 100px;
+}
+/* players */
+
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 30px;
+ 
+ 
+}
+
+/* player  */
+.player {
+  background: #fff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  width: 330px;
+  height: 520px;
+  align-items: flex-start;
+}
+
+.player img {
+  width: 300px;
+  height: 256px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.player-detail {
+  align-items: center;
+  width: 300px;
+  height: 154px;
+  margin: 0px;
+  text-align: justify;
+  padding: 0px 10px;
+  
+}
+.player-detail h3 {
+  font-weight: 900;
+}
+.player-detail p {
+  color: gray;
+}
