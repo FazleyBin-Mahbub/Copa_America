@@ -328,7 +328,7 @@ body {
   text-align: center;
 }
 
- /* Sponsor image  */
+/* Sponsor image  */
 .sponsor-name img {
   padding-top: 20px;
   margin-left: 10px;
@@ -339,15 +339,13 @@ body {
 footer {
   background-image: url("images/footer-bg.png");
   width: 100%;
-
+  height: 150vh;
   display: block;
   background-position: center;
   background-size: cover;
-
 }
 
-
-  /* footer container  */
+/* footer container  */
 .footer-container {
   display: flex;
   margin-right: auto;
@@ -360,82 +358,76 @@ footer {
   max-width: 170px;
 }
 
-.footer-container a{
+.footer-container a {
   text-decoration: none;
   color: #fff;
-
-  
 }
 
- /* footer links  */
+/* footer links  */
 
 .footer-links {
- 
   cursor: pointer;
   margin-left: 20px;
   line-height: 30px;
 }
 
-  /* footer app */
+/* footer app */
 
- .footer-app{
-   margin-left: 150px;
-   display: flex;
-   flex-direction: column;
-   cursor: pointer;
- }
+.footer-app {
+  margin-left: 150px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
 
-   /* footer title  */
-.footer-title{
+/* footer title  */
+.footer-title {
   color: #fff;
   font-size: 24px;
   cursor: auto;
 }
 
-  /* footer app-link  */
-.footer-app-link{
+/* footer app-link  */
+.footer-app-link {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
 }
 
-.footer-app-link img{
+.footer-app-link img {
   margin-top: 10px;
 }
 
-
-.footer-copyright-container img{
-   margin-top: 50px;
-   margin-left: 530px;
+.footer-copyright-container img {
+  margin-top: 50px;
+  margin-left: 530px;
   display: flex;
   justify-content: center;
   width: 350px;
   height: 100px;
- 
-  
+  background-color: white;
 }
 
-.footer-copyright-container p{
+.footer-copyright-container p {
   color: #fff;
   text-align: center;
   font-size: 18px;
- line-height: 24px;
- padding-left: 60px;
+  line-height: 24px;
+  padding-left: 60px;
 }
 
- /* Social links  */
+/* Social links  */
 
-.social-links{
+.social-links {
   display: flex;
-  justify-content: center; 
- margin-top: 20px;
- margin-left: 20px;
-
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
- /* social icons  */
+/* social icons  */
 
-.social-icons{
+.social-icons {
   margin-left: 20px;
   font-size: 30px;
   color: #fff;
@@ -443,9 +435,6 @@ footer {
   color: gray;
 }
 
-
 /* Media queries */
 
-  /* for mobile  */
-  
-
+/* for mobile  */
