@@ -34,6 +34,9 @@ body {
   margin-top: 30px;
   align-items: center;
 }
+.menu {
+  display: none;
+}
 .nav-links ul {
   display: flex;
   list-style-type: none;
@@ -59,7 +62,7 @@ body {
   width: 123px;
   height: 44px;
   justify-content: space-evenly;
-
+  cursor: pointer;
   margin-left: 350px;
 }
 
@@ -92,6 +95,7 @@ body {
   height: 44px;
   width: 168px;
   justify-content: center;
+  cursor: pointer;
 }
 
 .watch-button:hover {
@@ -110,24 +114,26 @@ body {
 /* banner image  */
 
 .banner-image img {
+  cursor: pointer;
   width: 556.01px;
   height: 438px;
   position: relative;
   left: 150px;
   top: 50px;
 }
-
+/* banner image hover  */
 .banner-image img:hover {
   transform: scale(1.1);
   transition: transform 1s ease;
 }
-
+/* top players section  */
 .top-players {
   margin-left: 80px;
 }
 /* players */
 
 .players {
+  cursor: default;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   row-gap: 20px;
@@ -141,6 +147,7 @@ body {
   height: 540px;
 }
 
+/* player hover  */
 .player:hover {
   transform: scale(1.1);
   transition: transform 1s ease;
@@ -202,7 +209,7 @@ body {
 
 .highlight-button {
   display: flex;
-
+  cursor: pointer;
   align-items: center;
   color: #fff;
   background: #e02c6d;
@@ -210,7 +217,7 @@ body {
   width: 168px;
   justify-content: center;
 }
-
+/* highlights button hover  */
 .highlight-button:hover {
   background-color: aqua;
   color: #2d25a0;
@@ -225,7 +232,7 @@ body {
   padding-left: 10px;
   padding-top: 5px;
 }
-
+/* this is a part of highlight section  */
 .match-image img {
   width: 567px;
   height: 427px;
@@ -255,6 +262,7 @@ body {
 .city {
   background: #3dbafd;
   height: 40vh;
+  cursor: pointer;
   width: 360px;
   box-shadow: 0 0 5px 0 rgb(0 0 0 / 20%);
   background-size: cover;
@@ -413,7 +421,7 @@ footer {
   text-align: center;
   font-size: 18px;
   line-height: 24px;
-  padding-left: 60px;
+  padding-left: 45px;
 }
 
 /* Social links  */
@@ -428,13 +436,194 @@ footer {
 /* social icons  */
 
 .social-icons {
+  padding: 10px;
+
   margin-left: 20px;
-  font-size: 30px;
-  color: #fff;
+
   cursor: pointer;
-  color: gray;
+  background: #0b0d17;
+  width: 26px;
+  height: 26px;
+  font-size: 24px;
+  border-radius: 50%;
+  color: #3dbafd;
+}
+
+.social-icons i {
+  margin-left: 2px;
 }
 
 /* Media queries */
 
 /* for mobile  */
+
+@media screen and (max-width: 688px) {
+  /* Responsive container  */
+  .container {
+    height: 700px;
+    width: 800px;
+  }
+  .menu {
+    display: inline;
+    color: #fff;
+    padding-left: 20px;
+    font-size: 20px;
+  }
+  .nav-links ul {
+    display: none;
+  }
+  /* Login Button  */
+  .login {
+    margin-left: 240px;
+  }
+
+  /* banner  */
+  .banner-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* banner title  */
+  .banner-title {
+    font-size: 36px;
+    width: 60px;
+    line-height: 60px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  /* Watch Live button  */
+  .watch-button {
+    position: relative;
+    /* top: 30px; */
+    left: 0;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  /* Watch button hover  */
+  .watch-button:hover {
+    background-color: aqua;
+    color: #2d25a0;
+    transition: 1s ease-in-out;
+  }
+
+  /* banner image  */
+  .banner-image img {
+    width: 329px;
+    height: 259.17px;
+    position: relative;
+    left: 0;
+    /* top: 140px; */
+  }
+
+  /* bannaer images hover  */
+  .banner-image img:hover {
+    transform: scale(1.1);
+    transition: transform 1s ease-in-out;
+  }
+
+  /* top players section  */
+  .top-players {
+    margin-left: 40px;
+  }
+
+  /* players  */
+  .players {
+    display: flex;
+    flex-direction: column;
+  }
+  /* players hover  */
+
+  .player:hover {
+    transform: scale(1.1);
+    transition: transform 1s ease;
+    margin: 15px 0px;
+  }
+
+  /* highlights section  */
+  .highlights {
+    flex-direction: column;
+    margin-left: 20px;
+    margin-bottom: 80px;
+  }
+  .highlights-info h1 {
+    width: 292px;
+    height: 80px;
+  }
+  .highlights-info p {
+    padding-top: 40px;
+    width: 329px;
+    height: 143px;
+  }
+
+  /* highlights button hover  */
+  .highlight-button:hover {
+    background-color: aqua;
+    color: #2d25a0;
+    transition: 1s ease-in-out;
+  }
+
+  .match-image img {
+    width: 328px;
+    height: 248px;
+    margin-left: 10px;
+    margin-top: 15px;
+  }
+
+  /* host cities  */
+
+  .host-cities {
+    display: flex;
+    flex-direction: column;
+    height: 170vh;
+  }
+
+  /* city hover  */
+
+  .city:hover {
+    transform: scale(1.1);
+    transition: transform 1s ease;
+  }
+
+  /* city title hover  */
+
+  .city-title:hover {
+    color: aqua;
+  }
+
+  /* sponsor image  */
+  .sponsor-name img {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+  }
+
+  /* footer  */
+  footer {
+    height: 220vh;
+  }
+  /* footer container  */
+  .footer-container {
+    flex-direction: column;
+
+    margin-left: 90px;
+  }
+
+  /* footer app  */
+  .footer-app {
+    margin-left: 2px;
+    margin-top: 40px;
+  }
+
+  /* footer copyright container  */
+  .footer-copyright-container img {
+    margin-left: 40px;
+  }
+  .footer-copyright-container p {
+    margin-left: 50px;
+    text-align: start;
+  }
+  .social-links {
+    margin-right: 35px;
+  }
+}
